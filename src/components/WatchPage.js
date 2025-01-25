@@ -15,6 +15,7 @@ const WatchPage = () => {
 
   useEffect(() => {
     dispatch(closeMenu());
+    // eslint-disable-next-line
   }, []);
 
   return (

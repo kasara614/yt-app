@@ -25,6 +25,7 @@ const LiveChat = () => {
     }, 1000);
 
     return () => clearInterval(i);
+    // eslint-disable-next-line
   }, []);
 
 

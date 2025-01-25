@@ -50,7 +50,7 @@ const Head = () => {
     return () => {
       clearTimeout(timer);
     };
-
+    // eslint-disable-next-line
   }, [searchQuery]);
 
 
